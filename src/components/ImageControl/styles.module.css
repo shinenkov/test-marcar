@@ -1,0 +1,17 @@
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.carouselDot {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+}

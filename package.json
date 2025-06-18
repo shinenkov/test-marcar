@@ -1,0 +1,29 @@
+{
+  "name": "test-marcar",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Alexander Shinenkov <alex.shinenkov@gmail.com>",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.7.5",
+    "next": "15.1.4",
+    "node": "^19.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-spring": "^9.7.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4",
+    "typescript": "^5"
+  }
+}

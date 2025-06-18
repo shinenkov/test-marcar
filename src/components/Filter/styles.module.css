@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: start;
+  padding: 20px 20px 0;
+}
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #8b8b8b;
+  padding: 2px;
+  min-width: 280px;
+  border-radius: 8px;
+}
+.activeLabel {
+  color: #222222;
+  font-weight: bold;
+}
+.inactiveLabel {
+  color: #888;
+  font-weight: normal;
+}
+.sortButton {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #888;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 867px) {
+  .container {
+    padding: 10px 10px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .filter {
+    min-width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter {
+    border-color: #555;
+  }
+  .activeLabel {
+    color: #e0e0e0;
+  }
+  .inactiveLabel {
+    color: #bbb;
+  }
+  .sortButton {
+    color: #bbb;
+  }
+}
